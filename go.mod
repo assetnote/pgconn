@@ -1,6 +1,6 @@
 module github.com/jackc/pgconn
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/jackc/chunkreader/v2 v2.0.1
@@ -10,8 +10,8 @@ require (
 	github.com/jackc/pgproto3/v2 v2.3.3
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a
 	github.com/stretchr/testify v1.8.1
-	golang.org/x/crypto v0.20.0
-	golang.org/x/text v0.14.0
+	golang.org/x/crypto v0.35.0
+	golang.org/x/text v0.22.0
 )
 
 require (
